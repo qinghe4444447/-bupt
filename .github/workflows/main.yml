@@ -3,7 +3,7 @@ name: auto-report clock in
 on:
   workflow_dispatch:
   schedule:
-    - cron: "8,28,48 23,4,12 * * *"
+    - cron: "30 0 * * *"
 
 jobs:
   build:
